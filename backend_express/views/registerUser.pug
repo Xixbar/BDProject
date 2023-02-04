@@ -1,0 +1,43 @@
+extends layout
+
+block content
+ 
+  body
+    div(class="gray-container")
+      div(class="head-gray-container")
+        div(class="row")
+          div(class="column left")
+            a(class="close-button" href="http://localhost:3000/" role="button" style) x
+          div(class="column right")
+            p Crea tu cuenta
+      form(role="form" method="POST" action="http://localhost:3000/crearUsuario")
+        div.form-group
+          label(for="nombre_usuario") Nombre completo:
+          input#nombre_usuario.form-control(type='text', placeholder='Nombre' name='nombre_usuario' required)
+        div(class="row-form")
+          div(class="column-left")
+            div.form-group
+              label(for="fecha_nacimiento_usuario") Fecha de nacimiento:
+              input#fecha_nacimiento_usuario.form-control(type='date', name='fecha_nacimiento_usuario' required)
+          div(class="column-right")  
+            div.form-group
+              label(for="sexo_usuario") Genero:
+                br
+                select#sexo_usuario.form-control(name='sexo_usuario' required)
+                  option(value="M") Masculino
+                  option(value="F") Femenino
+                  option(value="O") Otro
+        div.form-group
+          label(for="direccion_usuario") Dirección:
+          input#direccion_usuario.form-control(type='text', placeholder='Cl. 13 #100-00' name='direccion_usuario' required)
+        div.form-group
+          label(for="email") Correo electrónico:
+          input#email.form-control(type='email', placeholder='usuario@gmail.com' name='email' required)
+        div.form-group
+          label(for="celular") Celular:
+          input#celular.form-control(type='number', placeholder='3215468791' name='celular' required)
+        div.form-group
+          label(for="medio_de_pago") Número de tarjeta de pago:
+          input#medio_de_pago.form-control(type='number', placeholder='1234567898765432' name='medio_de_pago' required)
+        br
+        button.btn(type="submit", name="Submit" id="button") Completar registro

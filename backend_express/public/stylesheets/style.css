@@ -1,0 +1,171 @@
+head {
+  background-color: #242D34;
+}
+
+body {
+  padding: 100px;
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  background-color: #242D34;
+}
+
+a {
+  color: #00B7FF;
+  box-sizing: border-box;
+}
+
+a.option-button {
+  background-color: #D9D9D9;
+  color: #5A5D61;
+  
+  border: 1px;
+  border-radius: 15px;
+
+  padding: 7px 20px;
+
+  text-decoration: none;
+
+  text-align: center;
+}
+
+a.close-button {
+  background-color: #D9D9D9;
+  color: #5A5D61;
+
+  border: 1px;
+  border-radius: 20px;
+
+  padding: 4px 12px;
+
+  text-decoration: none;
+
+  text-align: center;
+}
+
+button {
+  background-color: #D9D9D9;
+  color: #5A5D61;
+
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  border: 1px;
+  border-radius: 25px;
+
+  padding: 7px 20px;
+  margin: 5px;
+}
+
+div.form-container {
+  background-color: #636D77;
+
+  border: 1px;
+  border-radius: 7px;
+}
+
+div.black-container {
+  background-color: #000000;
+
+  border: 1px;
+  border-radius: 7px;
+
+  text-align: center;
+
+  padding: 20px 10px;
+}
+
+div.head-black-container {
+  background-color: #000000;
+
+  border: 1px;
+  border-radius: 1px;
+
+  text-align: left;
+
+}
+
+div.gray-container {
+  background-color: #636D77;
+
+  border: 1px;
+  border-radius: 7px;
+
+  text-align: left;
+
+  padding: 20px 10px;
+}
+
+div.head-gray-container {
+  background-color: #636D77;
+
+  border: 1px;
+  border-radius: 1px;
+
+  text-align: left;
+
+}
+
+.row {
+  display: flex;
+  text-align: left;
+  padding: 5px 20px;
+}
+
+.row-form {
+  display: flex;
+  text-align: left;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.column-left {
+  float: left;
+  width: 60%;
+}
+
+.column-right {
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+label{
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px 10;
+  margin: 5px;
+}
+
+input{
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #D9D9D9;
+  color: #000000;
+  border: 1px;
+  border-radius: 20px;
+  padding: 5px 10;
+  padding-right: 0px;
+  margin: 5px;
+ 
+  width: 100%;
+  display: flex;
+}
+
+select{
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #D9D9D9;
+  color: #000000;
+  border: 1px;
+  border-radius: 20px;
+  padding: 10px 10;
+  margin: 5px;
+  width: 100%;
+}
